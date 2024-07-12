@@ -1,0 +1,24 @@
+.blog{
+    margin: 50px;
+}
+.blog h1{
+    text-align: center;
+    color: #AD236E;
+    margin: 30px 0px;
+    
+}
+.blog p{
+    line-height: 2;
+}
+@media only screen and (max-width: 500px){
+    .blog{
+        margin: 20px;
+    }
+    .blog h1{
+        font-size: 20px;
+    }
+    .blog p{
+        line-height: 1;
+       
+    }
+}

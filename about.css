@@ -1,0 +1,47 @@
+.about{
+    margin: 50px;
+}
+.head h1{
+    text-align: center;
+    padding: 30px;
+    color:#AD236E ;
+
+}
+
+.content2 {
+  flex-direction: row-reverse;
+}
+.content3 {
+    flex-direction: row-reverse;
+  }
+p{
+    width: 50%;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+@media only screen and (max-width: 500px){
+    .about{margin: 0px;}
+    p{
+        
+        padding: 30px;
+        width: 80%;
+    }
+    .heading{
+        font-size: 50px;
+    }
+    .about-content{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: 0%;
+     
+    }
+    .head h1{
+        text-align: center;
+        padding: 30px;
+       font-size: 20px;
+    }
+    
+}
